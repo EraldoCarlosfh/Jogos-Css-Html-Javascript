@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#exibicao-palavra {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+#letras-chutadas {
+    font-size: 2em;
+    color: rgba(34, 34, 161, 0.849);
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.button-home{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: #b98341;
+    border-radius: 6px;
+    color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.305);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-home:hover{
+    transform: scale(0.9);
+  }
+
+#mensagem {
+    display: none;
+}
+
+#botao-reiniciar {
+    display: none;
+    margin: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-reiniciar:hover {
+    background-color: #3c823e;
+}
