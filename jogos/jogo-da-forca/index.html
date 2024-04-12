@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>  
+  <body>
     <button class="button-home" onclick="home()">Voltar para home</button>
     <div class="container text-center mt-5">
       <h1>Jogo da Forca</h1>
@@ -27,11 +27,11 @@
       <div style="text-align: center">
         <button id="botao-reiniciar" onclick="iniciarJogo()">Recomeçar</button>
       </div>
-    </div>   
+    </div>
 
-    <script src="palavras.js"></script>
+    <script src="./palavras.js"></script>
     <script>
-       function home() {
+      function home() {
         window.history.back();
       }
 
@@ -54,7 +54,7 @@
         numeroErros = 0;
 
         atualizarExibicao();
-      }     
+      }
 
       function atualizarExibicao() {
         document.getElementById("exibicao-palavra").innerText =
@@ -115,6 +115,6 @@
       }
 
       window.load = iniciarJogo();
-    </script>   
+    </script>
   </body>
 </html>
